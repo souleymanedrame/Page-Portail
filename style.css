@@ -1,0 +1,90 @@
+body{
+    background: url(img/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-1{
+    width: 380px !important;
+    min-height: 80vh;
+    background: transparent !important;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255, .5) !important;
+    border-radius: 20px !important;
+    backdrop-filter: blur(1.5px);
+}
+
+.card-2{
+    width: 380px !important;
+    min-height: 80vh;
+    background: transparent !important;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255, .5) !important;
+    border-radius: 20px !important;
+    backdrop-filter: blur(1.5px);
+    /* margin-left: 10px; */
+}
+
+.div-1{
+    margin-top: 60px;
+}
+
+.img-tiv .tiv{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0, 0.5);
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.h3{
+  font-size: 40px !important;
+    margin-top: 10% !important;
+    color: white;
+    font-family: "Saira", sans-serif;
+}
+
+
+.bn632-hover {
+  width: 160px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn21 {
+  background-image: linear-gradient(
+    to right,
+    #fc6076,
+    #ff9a44,
+    #ef9d43,
+    #e75516
+  );
+  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
